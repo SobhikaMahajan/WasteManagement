@@ -1,0 +1,114 @@
+body {
+  background: #ffffff;
+  margin: 2%;
+  font-size: 110%;
+}
+
+.container {
+  position: relative;
+  max-width: 900x; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  height: 30%;
+}
+.points {
+  color: #f8f8ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to bottom right, #a71d31 0%, #3f0d12 99%);
+  display: inline-block;
+  padding: 20px;
+  font-size: 130%;
+  border-radius: 25px;
+  margin-left: 2%;
+}
+
+#paras {
+  margin: 5%;
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 92%; /* Full width */
+  padding: 20px; /* Some padding */
+  height: 30%;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: #fafad2;
+  padding: 20px;
+}
+
+#choco {
+  border-radius: 25px;
+  background: #808080;
+  padding: 2%;
+  margin: 5%;
+}
+.circle {
+  background: #7cfc00;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  margin: 2% 2%;
+  font-size: 90%;
+  padding: 2%;
+  display: inline-block;
+  height: 150%;
+  width: 25%;
+  color: #000080;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 250%;
+}
+h2 {
+  color: #fff8dc;
+  background: linear-gradient(to right, #000066 0%, #0066cc 100%);
+  display: inline inline-block;
+  width: 92%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+h3 {
+  color: #f8f8ff;
+  background: #db7093;
+  display: block;
+  width: 92%; /* Full width */
+  padding: 20px; /* Some padding */
+  text-align: center;
+  font-size: 150%;
+  margin: 2% 2%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.half {
+  width: 45%;
+  margin-right: 2%;
+  display: inline-block;
+  float: left;
+}
+
+.whole {
+  clear: both;
+}
+
+summary {
+  font-style: normal;
+}
+
+details {
+  font-style: italic;
+}
+
+footer {
+  height: 100px;
+  clear: both;
+}
